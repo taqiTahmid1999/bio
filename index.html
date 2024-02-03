@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 297mm;
+            width: 210mm;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 50mm 50mm 50mm 50mm;
+            grid-template-rows: 60mm 80mm 150mm;
+            grid-gap: 20px;
+            padding: 20px;
+            grid-template-areas: 
+                'b b p p'
+                'b b c c'
+                'e e i i'
+            ;
+        }
+
+        .contact, .info, .edu {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .pic img {
+            width: 60mm;
+            height: 60mm;
+            border-radius: 20%;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        ul {
+            padding: 0;
+        }
+
+        ul li {
+            list-style-type: none;
+            margin-bottom: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #0066cc;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="pic" style="grid-area: p; display: flex; justify-content: center; align-items: center;">
+            <img src="cut.jpg" alt="Taqi Tahmid">
+        </div>
+        <div class="contact" style="grid-area: c;">
+            <h2>Contact</h2>
+            <ul>
+                <li><strong>Present Address:</strong> H#DAG-2663/6896, Sayeed Nagar, Natun Bazar, Vatara, Dhaka</li>
+                <li><strong>Phone Number:</strong> +8801841737328</li>
+                <li><strong>Email Address:</strong> tahmidtaqi1999@gmail.com</li>
+                <li><strong>Facebook Account:</strong> <a href="https://www.facebook.com/taqi.tahmid.3382">https://www.facebook.com/taqi.tahmid.3382</a></li>
+                <li><strong>Github Account:</strong> <a href="https://github.com/taqiTahmid1999">https://github.com/taqiTahmid1999</a></li>
+            </ul>
+        </div>
+        <article class="bio" style="grid-area: b; display: flex; flex-direction: column; ">
+            <h2>About me</h2>
+            <p style="line-height: 1.6; letter-spacing: 0.5px; text-align: justify;">Assalamu Alaykum, I'm Taqi Tahmid. I find joy in the simple pleasures of life like playing cricket, diving into comic books, and exploring new places. I'm an introverted individual who values meaningful connections and cherishes quiet moments. When I'm not indulging in my hobbies, I'm often found keeping up with the latest in technology or enjoying healthy meals while prioritizing physical fitness. Currently, I'm focused on honing my skills in web development through freelancing, with aspirations of securing a remote job before graduation. Looking ahead, my goal is to embrace opportunities abroad. I believe in leading a balanced life, nurturing both mind and body. In addition to my pursuits, I also enjoy spending quality time with my family and engaging in community service projects that positively impact those around me. I'm excited about what the future holds.</p>
+        </article>
+        <div class="info" style="grid-area: i;">
+            <h2>Personal Information</h2>
+            <table>
+
+                <tr>
+                    <td><strong>Full Name:</strong></td>
+                    <td>Taqi Tahmid</td>
+                </tr>
+                <tr>
+                    <td><strong>Date of Birth:</strong></td>
+                    <td>19 October 1999</td>
+                </tr>
+                <tr>
+                    <td><strong>Gender:</strong></td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td><strong>Height:</strong></td>
+                    <td>5 ft 11 inches ( 180.5 cm )</td>
+                </tr>
+                <tr>
+                    <td><strong>Weight:</strong></td>
+                    <td>70 kg</td>
+                </tr>
+                <tr>
+                    <td><strong>Complexion:</strong></td>
+                    <td>Fair Skin</td>
+                </tr>
+                <tr>
+                    <td><strong>Blood Group:</strong></td>
+                    <td>AB+ve</td>
+                </tr>
+                <tr>
+                    <td><strong>Marital Status:</strong></td>
+                    <td>Unmarried</td>
+                </tr>
+                <tr>
+                    <td><strong>Religion:</strong></td>
+                    <td>Islam</td>
+                </tr>
+                <tr>
+                    <td><strong>Native Place:</strong></td>
+                    <td>Patharghata Upazila, Barguna District, Division of Barisal, Bangladesh
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="edu" style="grid-area: e;">
+            <h2>Education</h2>
+            <ul class="edu" style="padding-left: 0;">
+                <li><strong>Junior School Certificate (JSC)</strong></li>
+                <ul>
+                    <li>Institution: Safiuddin Sarkar Academy and College</li>
+                    <li>Year: 2015</li>
+                    <li>Grade Point Average (GPA): 5.00</li>
+                </ul>
+                <li><strong>Secondary School Certificate (SSC)</strong></li>
+                <ul>
+                    <li>Institution: Safiuddin Sarkar Academy and College</li>
+                    <li>Year: 2017</li>
+                    <li>Grade Point Average (GPA): 5.00</li>
+                </ul>
+                <li><strong>Higher Secondary Certificate (HSC)</strong></li>
+                <ul>
+                    <li>Institution: Uttara High School and College</li>
+                    <li>Year: 2020</li>
+                    <li>Grade Point Average (GPA): 5.00</li>
+                </ul>
+                <li><strong>Bachelor of Science in Computer Science and Engineering (BSCSE)</strong></li>
+                <ul>
+                    <li>University: United International University</li>
+                    <li>Level: Third Year</li>
+                    <li>Cumulative Grade Point Average (CGPA): 3.62</li>
+                </ul>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
