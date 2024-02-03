@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 297mm;
+            width: 210mm;
+        }
+        .family-member {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ffffff;
+            border-radius: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            padding-left: 0;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ffffff;
+        }
+        th {
+            background-color: #ffffff;
+        }
+        td:first-child {
+            font-weight: bold;
+            width: 30%;
+        }
+        td:last-child {
+            width: 70%;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto auto auto;
+            grid-template-areas: 
+            'f m'
+            'f b'
+            's h'
+                                                            
+            ;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <!-- <div style="grid-area: fm; display: flex; flex-direction: column;"> -->
+            <div class="family-member" style="grid-area: f;">
+                <h2>Father</h2>
+    
+                <table>
+                    <tr>
+                        <td>Name:</td>
+                        <td colspan="2">Md. Shah Alam</td>
+                    </tr>
+                    <tr>
+                        <td>Native Place:</td>
+                        <td colspan="2">Patharghata Upazila, Barguna District, Division of Barisal, Bangladesh</td>
+                    </tr>
+                    <tr>
+                        <td>Occupation:</td>
+                        <td colspan="2">Registrar</td>
+                    </tr>
+                    <tr>
+                        <td>Present Address:</td>
+                        <td colspan="2">Sonadanga, Khulna</td>
+                    </tr>
+                    <tr>
+                        <td>Number of Siblings:</td>
+                        <td colspan="2">5 brothers and 1 sister</td>
+                    </tr>
+                    <tr>
+                        <td>Uncle 1 Occupation:</td>
+                        <td colspan="2">Business Owner</td>
+                    </tr>
+                    <tr>
+                        <td>Uncle 2 Occupation:</td>
+                        <td colspan="2">Business Owner</td>
+                    </tr>
+                    <tr>
+                        <td>Uncle 3 Occupation:</td>
+                        <td colspan="2">Business Owner</td>
+                    </tr>
+                    <tr>
+                        <td>Uncle 4 Occupation:</td>
+                        <td colspan="2">Business Owner</td>
+                    </tr>
+                    <tr>
+                        <td>Uncle 5 Occupation:</td>
+                        <td colspan="2">Journalist (TRT World)</td>
+                    </tr>
+                    <tr>
+                        <td>Aunt Occupation:</td>
+                        <td colspan="2">Home-maker</td>
+                    </tr>
+                </table>
+            
+            </div>
+            <div class="family-member" style="grid-area: s;">
+                <h2>Sister</h2>
+                
+                <table>
+                    <tr>
+                        <td>Name:</td>
+                        <td colspan="2">Sara Abadi</td>
+                    </tr>
+                    <tr>
+                        <td>Age:</td>
+                        <td colspan="2">22</td>
+                    </tr>
+                    <tr>
+                        <td>Occupation:</td>
+                        <td colspan="2">Student</td>
+                    </tr>
+                    <tr>
+                        <td>Education:</td>
+                        <td colspan="2">HSC passed</td>
+                    </tr>
+                    <tr>
+                        <td>Marital Status:</td>
+                        <td colspan="2">Married</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="family-member" style="grid-area: b;">
+                <h2>Brother</h2>
+                
+                <table>
+                    <tr>
+                        <td>Name:</td>
+                        <td colspan="2">Tahir Tahsin</td>
+                    </tr>
+                    <tr>
+                        <td>Age:</td>
+                        <td colspan="2">9</td>
+                    </tr>
+                    <tr>
+                        <td>Class:</td>
+                        <td colspan="2">2</td>
+                    </tr>
+                </table>
+            </div>
+            
+    <!-- </div>       -->
+    <!-- <div style="grid-area: sbh; display: flex; flex-direction: column;"> -->
+        <div class="family-member" style="grid-area: m;">
+            <h2>Mother</h2>
+            
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td colspan="2">Taslima Khanam</td>
+                </tr>
+                <tr>
+                    <td>Native Place:</td>
+                    <td colspan="2">Chakhar Union, Banaripara Upazila, Barishal District, Division of Barisal, Bangladesh</td>
+                </tr>
+                <tr>
+                    <td>Occupation:</td>
+                    <td colspan="2">Home-maker</td>
+                </tr>
+                <tr>
+                    <td>Present Address:</td>
+                    <td colspan="2">Sonadanga, Khulna</td>
+                </tr>
+                <tr>
+                    <td>Number of Siblings:</td>
+                    <td colspan="2">1 brother and 2 sisters</td>
+                </tr>
+                <tr>
+                    <td>Uncle 1 Occupation:</td>
+                    <td colspan="2">Software Engineer</td>
+                </tr>
+                <tr>
+                    <td>Aunt 1 Occupation:</td>
+                    <td colspan="2">Home-maker</td>
+                </tr>
+                <tr>
+                    <td>Aunt 2 Occupation:</td>
+                    <td colspan="2">Home-maker</td>
+                </tr>
+            </table>
+        </div>
+            
+            
+            
+            
+            <div class="family-member" style="grid-area: h;">
+                <h2>Sister's Husband</h2>
+                
+                <table>
+                    <tr>
+                        <td>Name:</td>
+                        <td colspan="2">Tamim Ahsan</td>
+                    </tr>
+                    <tr>
+                        <td>Occupation:</td>
+                        <td colspan="2">Student</td>
+                    </tr>
+                    <tr>
+                        <td>University:</td>
+                        <td colspan="2">University of Dhaka (Department of Journalism)</td>
+                    </tr>
+                    <tr>
+                        <td>Age:</td>
+                        <td colspan="2">24</td>
+                    </tr>
+                    <tr>
+                        <td>Native Place:</td>
+                        <td colspan="2">Cox's Bazaar, Bangladesh</td>
+                    </tr>
+                </table>
+            </div>
+    <!-- </div> -->
+</div>    
+</body>
+</html>
